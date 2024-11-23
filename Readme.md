@@ -1,12 +1,12 @@
 # Object Classification with YOLO CIFAR-10 model and PyQt5
 
-This project provides a graphical user interface (GUI) for object classification using a YOLOv5 model. The GUI allows users to upload an image, perform predictions using a pre-trained model.
+This project provides a graphical user interface (GUI) for object classification using a YOLO model. The GUI allows users to upload an image, perform predictions using a pre-trained model.
 
 ## Features
 
 - **User-friendly GUI**: Designed using PyQt5 with a frameless, transparent window.
 - **Image Upload**: Supports PNG and JPG formats.
-- **YOLO Integration**: Utilizes a pre-trained YOLOv5 model for image classification.
+- **YOLO Integration**: Utilizes a pre-trained YOLO model for image classification.
 - **Drag and Move Window**: Click and drag anywhere in the window to reposition it.
 
 ## How It Works
@@ -46,7 +46,7 @@ pip install -r requirements.txt
 ## Project Structure
    - `main.py`: Main script containing the application logic and GUI.
    - `predictUI.ui`: User interface layout designed with Qt Designer.
-   - `runs/classify/train2/weights/best.pt`: Pre-trained YOLOv5 model weights.
+   - `runs/classify/train2/weights/best.pt`: Pre-trained YOLO model weights.
 
 ## Example Results
    - English Predictions:
