@@ -66,7 +66,7 @@ pip install -r requirements.txt
 ![App Screenshot](screenshots/AppPic.png)
 
 ## Notes
-   - Make sure the pre-trained YOLOv5 model file (best.pt) exists at the path `./runs/classify/train2/weights/best.pt`.
+   - Make sure the pre-trained YOLO model file (best.pt) exists at the path `./runs/classify/train2/weights/best.pt`.
    - The GUI currently supports Persian translations for the predefined classes.
 
 ## Contributing
